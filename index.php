@@ -25,8 +25,8 @@ require_once('templates/header.html');
       In de  laatste weken van de Bootcamp heb ik gewerkt aan een eindproject waar ik enorm trots op ben. Hier zie je het resultaat: <br>
         <a class="btn btn-primary button" href="https://project-copycat.herokuapp.com/index.php" role="button">Live Demo</a>
               <h2>Techniek en creativiteit combineren</h2>
-      <p>Mijn creatieve ervaringen uit het verleden kan ik toepassen binnen de IT! Dat is een eyeopener maar het bied ook een toekomst voor mij waar ik werkelijk blij van wordt. Ik kan nu mijn ideeen digitaal realiseren. 
-        Hoe kwam ik uberhaubt op het idee om iets in de IT te gaan doen en te leren coderen? 
+      <p>Mijn creatieve ervaringen uit het verleden kan ik toepassen binnen de IT! Dat is een eyeopener wat mij een nieuwe toekomst heeft gegeven waar ik werkelijk blij van word. Ik kan nu mijn ideeën digitaal realiseren. 
+        Hoe kwam ik überhaubt op het idee om iets in de IT te gaan doen en te leren coderen? 
           </div>
       </div>
   </section>
@@ -44,14 +44,7 @@ require_once('templates/header.html');
 
 
 
-
-
-
-
-
-
-    
-    <div class="container mt-5">
+<div class="container mt-5">
       <div class="row">
         <div class="col-sm  ">
           <a href="" class="custom-card ">
@@ -124,7 +117,7 @@ require_once('templates/header.html');
         <?php
         
           echo getCard("CV in HTML/CSS", "img/cv1.png", "Mijn eerste opdracht van de bootcamp", "Maartje Doe","img/portret2.jpg" );
-          echo getCard("Lesplan in HTML/CSS", "img/droomvanger.png", "Ik heb met Bootstrap een grid gemaakt met daarin vakjes die openen  en sluiten als je erop klikt.", "https://github.com/Eline75/leerplan", "img/portret2.jpg");
+          echo getCard("Lesplan in HTML/CSS", "img/droomvanger.png", "Ik heb met Bootstrap een grid gemaakt die op muisbewegingen reageert.", "https://github.com/Eline75/leerplan", "img/portret2.jpg");
           echo getCard("Adresboek in JavaScript","img/adresboek.png", "Ik heb in Javascript een pagina gemaakt met twee functies (sorteren en verwijderen).", "https://eline-adresboek.herokuapp.com/","img/portret2.jpg");
 
         ?>
@@ -155,7 +148,7 @@ require_once('templates/header.html');
         
           echo getCard("MySql in combinatie met Linux", "img/MySql.png", "Ik heb geoefend met databases. Soorten databases en het leren werken ermee.", "Anna Doe","img/portret.jpg" );
           echo getCard("Travelblog", "img/mytravelblog.png","Met behulp van een database kon ik gegevens ophalen die in de blog werden weergegeven.", "Anna Doe", "img/portret.jpg");
-          echo getCard("Scrum","img/scrum.jpg", "We hebben ook twee dagen lang een scrum cursus gevolgd dat verzorgd werd door We::Code. Hierdoor werden we ons bewust van de voordelen van Agile-softwareontwikkeling", "Anna Doe","img/portret.jpg");
+          echo getCard("Scrum","img/scrum.jpg", "We hebben een 2-daagse scrum cursus gevolgd dat verzorgd werd door We::Code. Dit heeft mij inzicht gegeven in de voordelen en toepassing van Agile-softwareontwikkeling", "Anna Doe","img/portret.jpg");
 
         ?>
    
