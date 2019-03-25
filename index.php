@@ -18,15 +18,15 @@ require_once('templates/header.html');
        <div class="container">
           <div class="row">
               <h1><img src="img/eline.jpg" alt="..." class="rounded-circle mt-5">     Over mij </h1>
-     <p>Hallo, ik ben Eline en altijd al creatief geweest. Als kind zat ik altijd te tekenen en schilderen en hield ik van muziek. Ik wist al vroeg dat ik naar de kunstacademie wilde om "iets" met kunst te doen. Dat "iets" werd een zoektocht van jaren en is nu geworden tot iets concreets waar ik passie voor heb, webdevelopment en speciaal UI/UX Design. Deze passie is ontstaan tijdens het volgen van een BootCamp.
+     <p>Hallo, ik ben Eline en altijd al creatief geweest. Als kind zat ik altijd te tekenen en schilderen en hield ik van muziek. Ik wist al vroeg dat ik naar de kunstacademie wilde om "iets" met kunst te doen. Dat "iets" werd een zoektocht van jaren en is nu geworden tot iets concreets waar ik passie voor heb: webdevelopment en speciaal UI/UX Design. Deze passie is ontstaan tijdens het volgen van een bootcamp.
       Op deze pagina vertel ik hier meer over en krijg je een indruk van wat ik geleerd heb. 
     </p>
-              <h2>Eindproject Bootcamp</h2>
+              <h2>Eindproject bootcamp</h2>
       In de  laatste weken van de Bootcamp heb ik gewerkt aan een eindproject waar ik enorm trots op ben. Hier zie je het resultaat: <br>
         <a class="btn btn-primary button" href="https://project-copycat.herokuapp.com/index.php" role="button">Live Demo</a>
               <h2>Techniek en creativiteit combineren</h2>
       <p>Mijn creatieve ervaringen uit het verleden kan ik toepassen binnen de IT! Dat is een eyeopener wat mij een nieuwe toekomst heeft gegeven waar ik werkelijk blij van word. Ik kan nu mijn ideeën digitaal realiseren. 
-        Hoe kwam ik überhaubt op het idee om iets in de IT te gaan doen en te leren coderen? 
+        Hoe kwam ik überhaupt op het idee om iets in de IT te gaan doen en te leren coderen? 
           </div>
       </div>
   </section>
@@ -55,7 +55,7 @@ require_once('templates/header.html');
               </div>
               <div class="col-md-6">
                 <div class="card-body">
-                   <h5 class="card-title"><b>CodeGorilla Hackathon</b></h5> 
+                   <h5 class="card-title"><b>CodeGorilla hackathon</b></h5> 
 
                   <p class="card-text">
                   De hackathon is een evenement dat twee werkdagen duurde. Alle teams kregen de opdracht een innovatieve en creatieve oplossing te bedenken voor een probleem. 
@@ -116,7 +116,7 @@ require_once('templates/header.html');
 
         <?php
         
-          echo getCard("CV in HTML/CSS", "img/cv1.png", "Mijn eerste opdracht van de bootcamp", "Maartje Doe","img/portret2.jpg" );
+          echo getCard("CV in HTML/CSS", "img/cv1.png", "Mijn eerste opdracht van de bootcamp.", "Maartje Doe","img/portret2.jpg" );
           echo getCard("Lesplan in HTML/CSS", "img/droomvanger.png", "Ik heb met Bootstrap een grid gemaakt die op muisbewegingen reageert.", "https://github.com/Eline75/leerplan", "img/portret2.jpg");
           echo getCard("Adresboek in JavaScript","img/adresboek.png", "Ik heb in Javascript een pagina gemaakt met twee functies (sorteren en verwijderen).", "https://eline-adresboek.herokuapp.com/","img/portret2.jpg");
 
@@ -146,9 +146,9 @@ require_once('templates/header.html');
 
         <?php
         
-          echo getCard("MySql in combinatie met Linux", "img/MySql.png", "Ik heb geoefend met databases. Soorten databases en het leren werken ermee.", "Anna Doe","img/portret.jpg" );
+          echo getCard("MySQL in combinatie met Linux", "img/MySql.png", "Ik heb geoefend met databases, soorten databases en het leren werken ermee.", "Anna Doe","img/portret.jpg" );
           echo getCard("Travelblog", "img/mytravelblog.png","Met behulp van een database kon ik gegevens ophalen die in de blog werden weergegeven.", "Anna Doe", "img/portret.jpg");
-          echo getCard("Scrum","img/scrum.jpg", "We hebben een 2-daagse scrum cursus gevolgd dat verzorgd werd door We::Code. Dit heeft mij inzicht gegeven in de voordelen en toepassing van Agile-softwareontwikkeling", "Anna Doe","img/portret.jpg");
+          echo getCard("Scrum","img/scrum.jpg", "We hebben een 2-daagse scrum cursus gevolgd die verzorgd werd door We::Code. Dit heeft mij inzicht gegeven in de voordelen en toepassing van Agile-softwareontwikkeling", "Anna Doe","img/portret.jpg");
 
         ?>
    
