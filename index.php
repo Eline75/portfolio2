@@ -7,7 +7,7 @@ require_once("functions.php");
 <header class="index-header">
 <?php 
 
-require_once('templates/navigation.php');
+// require_once('templates/navigation.php');
 
 require_once('templates/header.html');
   ?>
@@ -25,7 +25,7 @@ require_once('templates/header.html');
       In de  laatste weken van de Bootcamp heb ik gewerkt aan een eindproject waar ik enorm trots op ben. Hier zie je het resultaat: <br>
         <a class="btn btn-primary button" href="https://project-copycat.herokuapp.com/index.php" role="button">Live Demo</a>
               <h2>Techniek en creativiteit combineren</h2>
-      <p>Mijn creatieve ervaringen uit het verleden kan ik toepassen binnen de IT! Dat is een eyeopener wat mij een nieuwe toekomst heeft gegeven waar ik werkelijk blij van word. Ik kan nu mijn ideeën digitaal realiseren. 
+      <p>Mijn creatieve ervaringen uit het verleden kan ik toepassen binnen de IT! Dat is een eyeopener die mij een nieuwe toekomst heeft gegeven waar ik werkelijk blij van word. Ik kan nu mijn ideeën digitaal realiseren. 
         Hoe kwam ik überhaupt op het idee om iets in de IT te gaan doen en te leren coderen? 
           </div>
       </div>
@@ -146,9 +146,9 @@ require_once('templates/header.html');
 
         <?php
         
-          echo getCard("MySQL in combinatie met Linux", "img/MySql.png", "Ik heb geoefend met databases, soorten databases en het leren werken ermee.", "Anna Doe","img/portret.jpg" );
+          echo getCard("MySQL in combinatie met Linux", "img/MySql.png", "Ik heb geoefend met databases, soorten databases en daarmee leren werken.", "Anna Doe","img/portret.jpg" );
           echo getCard("Travelblog", "img/mytravelblog.png","Met behulp van een database kon ik gegevens ophalen die in de blog werden weergegeven.", "Anna Doe", "img/portret.jpg");
-          echo getCard("Scrum","img/scrum.jpg", "We hebben een 2-daagse scrum cursus gevolgd die verzorgd werd door We::Code. Dit heeft mij inzicht gegeven in de voordelen en toepassing van Agile-softwareontwikkeling", "Anna Doe","img/portret.jpg");
+          echo getCard("Scrum","img/scrum.jpg", "We hebben een 2-daagse scrum cursus gevolgd die verzorgd werd door We::Code. Dit heeft mij inzicht gegeven in de voordelen en toepassing van Agile softwareontwikkeling", "Anna Doe","img/portret.jpg");
 
         ?>
    
